@@ -220,7 +220,7 @@ POST /api/deposit-preview
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Test cases implemented:
 
@@ -236,18 +236,18 @@ npx hardhat test
 
 ---
 
-## 🔐 Key Features
+## Key Features
 
-* ✅ Event-driven architecture (WebSocket)
-* ✅ MongoDB persistence (no data loss)
-* ✅ Initial sync + real-time updates
-* ✅ No duplicate transactions (unique txHash)
-* ✅ Pagination support
-* ✅ Scalable backend design
+* Event-driven architecture (WebSocket)
+* MongoDB persistence (no data loss)
+* Initial sync + real-time updates
+* No duplicate transactions (unique txHash)
+* Pagination support
+* Scalable backend design
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Uses public RPC (rate limits possible)
 * No retry queue for failed DB writes
@@ -255,7 +255,7 @@ npx hardhat test
 
 ---
 
-## 🔥 Future Improvements
+## Future Improvements
 
 * Add **Redis caching**
 * Implement **WebSocket + HTTP fallback**
@@ -265,21 +265,21 @@ npx hardhat test
 
 ---
 
-## 📄 Deployed Contracts
+## Deployed Contracts
 
 * Treasury: `0x6898bCb62a6562d8B8c36258E227AF6aCEb2EA84`
-* Token: `0x...`
+* Token: `0x761Ffc65DCF3Ea5F43ED1ea5e2C51a67cd20D05B`
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Abhineet Kumar
 Blockchain & Backend Developer
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This project demonstrates a **production-ready RWA tokenisation flow** using:
 
