@@ -1,22 +1,6 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-// deploy and verify smart contract
-npx hardhat run scripts/deploy.js --network binanceTestnet
-// run test code
-npx hardhat test
-```
 # Minimal RWA Tokenisation Flow
 
-## 📌 Overview
+## Overview
 
 This project demonstrates a simplified **Real World Asset (RWA) Tokenisation system** built using:
 
@@ -29,7 +13,7 @@ The system allows users to deposit ETH (or mock value) into a treasury and recei
 
 ---
 
-## ⚙️ Architecture
+## Architecture
 
 ```
 User → Backend API → Smart Contract (Treasury)
@@ -45,7 +29,7 @@ User → Backend API → Smart Contract (Treasury)
 
 ---
 
-## 🧠 Approach
+## Approach
 
 ### 1. Smart Contracts
 
@@ -99,29 +83,29 @@ Transactions are stored with:
 
 ### 4. API Layer
 
-#### 📌 Get Transaction History
+#### Get Transaction History
 
 * Fetches transactions from MongoDB
 * Supports pagination (`limit`, `offset`)
 * Sorted by latest block
 
-#### 📌 Get Wallet Balance
+#### Get Wallet Balance
 
 * Reads ERC20 balance using `ethers.js`
 
-#### 📌 Deposit Preview
+#### Deposit Preview
 
 * Calculates expected tokens based on deposit amount
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/rwa-tokenisation.git
-cd rwa-tokenisation/backend
+git clone https://github.com/Abhineet1198/RWA-Assignment.git
+cd RWA-Assignment/backend
 ```
 
 ---
@@ -184,7 +168,7 @@ npx hardhat run scripts/deploy.js --network binanceTestnet
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### 1. Get Transactions
 
@@ -240,9 +224,9 @@ POST /api/deposit-preview
 
 Test cases implemented:
 
-* ✅ Deposit flow
-* ✅ Withdrawal flow
-* ✅ Unauthorized access (edge case)
+* Deposit flow
+* Withdrawal flow
+* Unauthorized access (edge case)
 
 Run tests:
 
