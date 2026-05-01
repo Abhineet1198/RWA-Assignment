@@ -20,7 +20,7 @@ export const startEventListener = async () => {
   // 1. INITIAL SYNC
   try {
     const latestBlock = await provider.getBlockNumber();
-    const fromBlock = latestBlock - 10000;
+    const fromBlock = latestBlock - 5000;
 
     for (let start = fromBlock; start <= latestBlock; start += BLOCK_RANGE) {
       const end = Math.min(start + BLOCK_RANGE - 1, latestBlock);

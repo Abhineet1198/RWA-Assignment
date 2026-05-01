@@ -267,8 +267,9 @@ npx hardhat test
 
 ## Deployed Contracts
 
-* Treasury: `0x6898bCb62a6562d8B8c36258E227AF6aCEb2EA84`
-* Token: `0x761Ffc65DCF3Ea5F43ED1ea5e2C51a67cd20D05B`
+* Treasury: `0x449be124313eEfe76ecF742a3fd83Fc722B464B4`
+* Token: `0x55c414bC59ca864A60Ec8A9569251BaAaAA06316`
+
 
 ---
 
